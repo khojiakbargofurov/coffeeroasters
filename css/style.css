@@ -164,6 +164,37 @@ table {
   padding-bottom: 56px;
 }
 
+.about-hero-section .hero-container {
+  display: flex;
+  align-items: center;
+  color: #FEFCF7;
+  background-image: url(/static/imgs/jpg/about-hero-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 450px;
+  border-radius: 10px;
+  margin-bottom: 168px;
+}
+
+.about-hero {
+  padding-left: 88px;
+}
+.about-hero__title {
+  font-family: Fraunces;
+  font-size: 40px;
+  padding-bottom: 48px;
+}
+.about-hero__content {
+  max-width: 440px;
+  font-family: Barlow;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  opacity: 0.8;
+  padding-bottom: 56px;
+}
+
 .collaction {
   display: flex;
   flex-direction: column;
@@ -341,6 +372,77 @@ table {
 
 .social {
   display: flex;
+  align-items: center;
   gap: 48px;
   padding-right: 85px;
+}
+
+.about-info-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 125px;
+  margin-bottom: 168px;
+}
+
+.about-info {
+  display: flex;
+  flex-direction: column;
+}
+.about-info__title {
+  color: #333D4B;
+  font-family: Fraunces;
+  font-size: 40px;
+  line-height: 48px;
+  padding-bottom: 32px;
+}
+.about-info__content {
+  max-width: 538px;
+  color: #333D4B;
+  font-family: Barlow;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.info-section-container {
+  border-radius: 10px;
+  background-color: #2C343E;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 168px;
+}
+
+.about-info {
+  padding-left: 85px;
+}
+.about-info__title--info {
+  color: #FEFCF7;
+  font-family: Fraunces;
+  font-size: 40px;
+  line-height: 48px;
+  padding-bottom: 32px;
+}
+.about-info__content--info {
+  max-width: 538px;
+  color: #FEFCF7;
+  font-family: Barlow;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.info-img {
+  position: relative;
+  top: -85px;
+  border-radius: 10px;
+  padding-right: 85px;
+}
+
+.about0 {
+  width: 285px;
+  font-family: Fraunces;
+  font-size: 32px;
+  font-weight: 900;
 }/*# sourceMappingURL=style.css.map */
