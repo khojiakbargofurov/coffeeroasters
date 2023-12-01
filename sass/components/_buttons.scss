@@ -1,0 +1,13 @@
+.btn{
+  border-radius: 6px;
+  background-color : $Dark-Cyan ;
+  border: none;
+  color: $Light-Cream;
+  padding: 16px 31px;
+  cursor: pointer;
+}
+.btn:hover{
+  background-color: $btn-hover ;
+}
+
+
