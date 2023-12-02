@@ -132,6 +132,9 @@ table {
 .nav__link:hover {
   color: #333D4B;
 }
+.nav__link:active {
+  color: #333D4B;
+}
 
 .hero-container {
   display: flex;
@@ -193,6 +196,19 @@ table {
   line-height: 26px;
   opacity: 0.8;
   padding-bottom: 56px;
+}
+
+.about-hero-section .create-container {
+  display: flex;
+  align-items: center;
+  color: #FEFCF7;
+  background-image: url(/static/imgs/jpg/bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 450px;
+  border-radius: 10px;
+  margin-bottom: 168px;
 }
 
 .collaction {
@@ -445,4 +461,16 @@ table {
   font-family: Fraunces;
   font-size: 32px;
   font-weight: 900;
+}
+
+.create-wrapper {
+  background-color: #2C343E;
+  padding: 113px 85px 55px;
+}
+
+.create-steps .step__subtitle {
+  color: #FEFCF7;
+}
+.create-steps .step .content {
+  color: #FEFCF7;
 }/*# sourceMappingURL=style.css.map */

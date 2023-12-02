@@ -1,0 +1,12 @@
+.create-wrapper{
+  background-color: #2C343E;
+  padding: 113px 85px 55px;
+}
+.create-steps .step {
+  &__subtitle{
+    color: $Light-Cream;
+  }
+  .content{
+    color: $Light-Cream;
+  }
+}

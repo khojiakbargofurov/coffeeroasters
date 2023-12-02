@@ -18,12 +18,15 @@
     line-height: 15px;  
     text-transform: uppercase;  
     }
-  &__link{
-    color: $Grey;
-  }
-  &__link:hover{
-    color: $Dark-Grey-Blue;
-  }
+    &__link{
+      color: $Grey;
+    }
+    &__link:hover{
+      color: $Dark-Grey-Blue;
+    }
+    &__link:active{
+      color: $Dark-Grey-Blue;
+    }
 }
 .hero-container{
   display: flex;
@@ -82,4 +85,16 @@
     opacity: 0.8;
     padding-bottom: 56px;
   }
+}
+.about-hero-section .create-container{
+  display: flex;
+  align-items: center;
+  color: $Light-Cream;
+  background-image: url(/static/imgs/jpg/bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 450px;
+  border-radius: 10px;
+  margin-bottom: 168px;
 }
